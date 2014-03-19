@@ -1,0 +1,373 @@
+/*Custom CSS*/
+body, html {
+	height: 100%;
+}
+
+body {
+	/*preload*/
+	/*overflow: hidden;*/
+	/*preload*/
+	height: 100%;
+	background: url('../../photography/background.png') #000 fixed no-repeat top;
+	/*background-filter: blur(5px) brightness(0.5);;*/
+	background-color: black;
+	background-size:cover;
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 16px;	
+	color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+
+section {
+	min-height: 100%;	
+	/*background-color: #f9f9f9;*/
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px;
+
+
+
+}
+
+section.splash {
+	background: none;
+	/*background-color: transparent;*/
+}
+
+section p {
+	font-size: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+
+#home {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+.separator {
+	/*background-color: transparent;*/
+	/*background: url('../../photography/background2.jpg') #000 fixed no-repeat bottom;*/
+	/*background: url('../../photography/background5.png') #000 fixed no-repeat left;*/
+	/*background: url('../../photography/background3.jpg');*/
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-size: cover;*/
+	/*background-position: fixed;*/
+	max-height: 30%;
+	min-height: 30%;
+}
+
+.background1 {
+	background: url('../../photography/background5.png') #000 fixed no-repeat left;
+	background-size: cover;
+
+}
+
+.background2 {
+	background: url('../../photography/background2.jpg') #000 fixed no-repeat center;
+	background-size: cover;
+}
+
+
+
+.page-header h1.lato {
+	font-family: Lato;
+	font-weight: 100;
+	font-size: 120px;
+}
+
+            
+.intro-container {
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+    /*position: absolute;*/
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0);
+    padding: 10 0px;
+}
+
+.intro {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    /*bottom: auto;*/
+    top: 20%;
+
+}
+
+h1.title  {
+	font-size: 80px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+h2.title {
+	/*font-size: 16px;*/
+	/*font-style: italic;*/
+	font-weight: 100;
+	/*text-transform: uppercase;*/
+	/*text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);	*/
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	/*-webkit-text-stroke-width: 0.5px;*/
+	/*-webkit-text-stroke-color: black;*/
+
+	padding: 5px;
+
+
+
+}
+
+.border {
+	position: relative;
+	/*opacity: 0;*/
+	margin: 15px auto;
+	width: 200px;
+	border-bottom: 1px solid white;
+	/*border-bottom: */
+
+}
+
+.selfbox img {
+	box-shadow: rgba(0, 0, 0, 1) 0px 2px 33px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 1) 0px 2px 33px 0px;
+/*	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	-webkit-transition: 1s; 
+	transition: 1s;*/
+}
+.selfbox img:hover {
+	box-shadow: rgba(0, 0, 0, 1) 0px 2px 33px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 1) 0px 2px 33px 0px;
+/*	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none;
+	-webkit-transition: 1s; */
+	/*transition: 1s;*/
+}
+
+.selfbox {
+	padding: 15px;
+}
+
+.padded10 {
+	padding: 10px;
+}
+
+.social-icons {
+	font-size: 25px;
+}
+
+@media screen and (max-width: 720px) { 
+
+	h1.title {
+		font-size: 48px;
+		font-weight: 100;
+		text-transform: uppercase;
+	}
+
+	.page-header h1.lato {
+		font-family: Lato;
+		font-weight: 100;
+		font-size: 65px;
+	}
+
+	section p {
+		font-size: 16px;
+	}
+
+}
+
+ a {
+	color: gray;
+	-webkit-transition: 1s; 
+	transition: 1s;
+}
+
+ a:hover {
+	color: #3498db;
+	text-decoration: none;
+	-webkit-transition: 1s; 
+	transition: 1s;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../fonts/icomoon.eot?q0l3dm');
+	src:url('../../fonts/icomoon.eot?#iefixq0l3dm') format('embedded-opentype'),
+		url('../../fonts/icomoon.svg?q0l3dm#icomoon') format('svg'),
+		url('../../fonts/icomoon.woff?q0l3dm') format('woff'),
+		url('../../fonts/icomoon.ttf?q0l3dm') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;	
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+	content: "\e600";
+}
+.icon-github2:before {
+	content: "\e601";
+}
+.icon-github3:before {
+	content: "\e602";
+}
+.icon-github4:before {
+	content: "\e603";
+}
+.icon-github5:before {
+	content: "\e604";
+}
+.icon-facebook:before {
+	content: "\e605";
+}
+.icon-facebook2:before {
+	content: "\e606";
+}
+.icon-facebook3:before {
+	content: "\e607";
+}
+.icon-twitter:before {
+	content: "\e608";
+}
+.icon-twitter2:before {
+	content: "\e609";
+}
+.icon-twitter3:before {
+	content: "\e60a";
+}
+.icon-google-plus:before {
+	content: "\e60b";
+}
+.icon-google-plus2:before {
+	content: "\e60c";
+}
+.icon-plus:before {
+	content: "\e60d";
+}
+.icon-google-plus3:before {
+	content: "\e60e";
+}
+.icon-google-plus4:before {
+	content: "\e60f";
+}
+.icon-linkedin:before {
+	content: "\e610";
+}
+.icon-skype:before {
+	content: "\e611";
+}
+.icon-envelope:before {
+	content: "\e612";
+}
+.icon-mail:before {
+	content: "\e613";
+}
+
+
+.portfolio-nav {
+	font-size: 20px;
+	word-spacing: 10px;
+
+}
+
+.portfolio-container {
+	width: auto;
+	/*border: 1px solid #666;*/
+	margin: 0 auto 20px;
+	display: block;
+	/*display: inline-block;*/
+}
+
+.portfolio-item {
+	margin: 10px 10px;
+	/*display: inline-block;*/
+}
+.portfolio-item img{
+	/*-webkit-box-shadow: 0 8px 6px -6px #2c2c2c; -moz-box-shadow: 0 8px 6px -6px #2c2c2c; box-shadow: 0 8px 6px -6px #2c2c2c;*/
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 23px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 23px 0px;	
+}
+
+
+/*Preload stuff*/
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:1099; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../../images/spinner.png); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100px 100px;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+	-webkit-animation-name: spinnerRotate;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;		
+}
+
+@-webkit-keyframes spinnerRotate {
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+/*End preload*/
+
+#contact button {
+	margin: 5px;
+}
+
+.faded {
+	opacity: 0;
+	/*display: none;*/
+	/*visibility: hidden;	*/
+}
