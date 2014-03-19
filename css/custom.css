@@ -1,3 +1,7 @@
+/*Imports*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
 /*Custom CSS*/
 body, html {
 	height: 100%;
@@ -8,11 +12,11 @@ body {
 	/*overflow: hidden;*/
 	/*preload*/
 	height: 100%;
-	background: url('../../photography/background.png') #000 fixed no-repeat top;
+	background: url('../../photography/air_mockup_2.jpg') #000 fixed no-repeat top;
 	/*background-filter: blur(5px) brightness(0.5);;*/
 	background-color: black;
 	background-size:cover;
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px;	
 	color: black;
@@ -37,6 +41,7 @@ section {
 
 section.splash {
 	background: none;
+	background-color: rgba(0,0,0, 0.15);
 	/*background-color: transparent;*/
 }
 
@@ -80,7 +85,7 @@ section p {
 
 
 .page-header h1.lato {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 120px;
 }
@@ -187,7 +192,7 @@ h2.title {
 	}
 
 	.page-header h1.lato {
-		font-family: Lato;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 100;
 		font-size: 65px;
 	}

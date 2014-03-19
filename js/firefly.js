@@ -64,7 +64,7 @@ $.firefly.random = function(max) {
 
 // execute
 $(document).ready(function() {
-	$.firefly(); 
+	// $.firefly(); 
 
 	// offsetValue = 40;
 
