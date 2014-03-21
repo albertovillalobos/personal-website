@@ -55,7 +55,7 @@ section p {
 	width: 100%;
 	height: 100%;
 	margin-bottom: 0px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .separator {
@@ -97,22 +97,24 @@ section p {
     text-align: center;
     color: #FFF;
     /*position: absolute;*/
-    display: block;
+    display: table;
     min-width: 100%;
     min-height: 100%;
     background-color: rgba(0,0,0,0);
-    padding: 10 0px;
+    /*padding: 10 0px;*/
 }
 
 .intro {
-    position: absolute;
+	vertical-align: middle;
+	display: table-cell;
+    /*position: absolute;*/
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     /*margin-top: auto;*/
     /*margin-bottom: auto;*/
     /*bottom: auto;*/
-    top: 20%;
+    /*top: 20%;*/
 
 }
 
