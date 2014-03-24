@@ -390,6 +390,7 @@ h2.title {
 .navbar-inverse {
   background-color: rgba(0,0,0,0.45);
   border-color: none;
+  box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.35);
   /*border-color: #080808;*/
 }
 
