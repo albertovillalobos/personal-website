@@ -92,6 +92,7 @@ $(document).ready(function() {
             	
                 $(this).animate({'opacity':'1'},500);
                 // Hack fix
+                console.log($(this));
                 $('a[data-filter="*"]').click();
 
                     
