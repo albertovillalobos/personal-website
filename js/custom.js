@@ -103,11 +103,7 @@ $(document).ready(function() {
     });
 
 
-    /* ==========================================================================
-		Try to fix Isotope problem
-   ========================================================================== */
-   // <a class="filter-button translate" href="#" data-filter="*">All</a> 
-   $('a[data-filter="*"]').click();
+
     		
     		
     				
