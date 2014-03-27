@@ -7,6 +7,15 @@ module.exports = function (grunt) {
     require('time-grunt')(grunt);
 
     grunt.initConfig({
+        jshint: {
+            options: {
+                jshintrc: '.jshintrc',
+                // reporter: require('jshint-stylish')
+            },
+            all: [
+                'js/custom.js'
+            ]
+        },        
         concat: {
             options: {
                 separator: ';',
@@ -86,7 +95,7 @@ module.exports = function (grunt) {
                     "css/custom.css",
                     "./index.html"
                 ],
-                tasks: ['concat:frontend', 'uglify:frontend', 'concat:frontendcss', 'cssmin:frontendcss'], //tasks to run
+                tasks: ['jshint','concat:frontend', 'uglify:frontend', 'concat:frontendcss', 'cssmin:frontendcss'], //tasks to run
                 options: {
                     livereload: true //reloads the browser
                 }
