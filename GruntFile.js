@@ -130,7 +130,7 @@ module.exports = function (grunt) {
 
 
     // Task definition
-    grunt.registerTask('default', ['connect:livereload','watch']);
+    grunt.registerTask('default', ['jshint','connect:livereload','watch']);
 
 
 
