@@ -1,3 +1,4 @@
 # ignore the following
 .hg/
 .hgignore
+php/creds.php
